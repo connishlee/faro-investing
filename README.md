@@ -1,5 +1,5 @@
 # faro-investing-assessment
-=======
+============================
 # Front End OA
 
 # For Login
