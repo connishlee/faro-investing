@@ -29,10 +29,10 @@ function App() {
       <Routes>
         <Route
           path="/assets"
-          element={isLoggedIn ? <Assets /> : <Navigate to="/" />}
+          element={isLoggedIn ? <Assets /> : <Navigate to="/faro-investing" />}
         />
         <Route
-          path="/"
+          path="/faro-investing"
           element={
             isLoggedIn ? (
               <Navigate to="/assets" />
